@@ -76,33 +76,30 @@ public class Game extends Main{
                             if (e.getKeyCode() == KeyEvent.VK_UP) {
                                 setStopped(1);
                                 setArrowSide((int)Math.floor(Math.random() * (max - min + 1) + min));
-                                System.out.println(Game.ArrowSide);
+                               
                                 pencilX -= 25;
                                 press = false;
-                                System.out.println(pencilX);
-                                System.out.println(press);
+                               
                             };
                         }
                         if(getArrowSide() == 1){
                             if (e.getKeyCode() == KeyEvent.VK_LEFT) {
                                 setStopped(1);
                                 setArrowSide((int)Math.floor(Math.random() * (max - min + 1) + min));
-                                System.out.println(Game.ArrowSide);
+                                
                                 press = false;
                                 pencilX -= 25;
-                                System.out.println(pencilX);
-                                System.out.println(press);
+                                
                             };
                         }
                         if(getArrowSide() == 2){
                             if (e.getKeyCode() == KeyEvent.VK_RIGHT) {
                                 setStopped(1);
                                 setArrowSide((int)Math.floor(Math.random() * (max - min + 1) + min));
-                                System.out.println(Game.ArrowSide);
+                                
                                 press = false;
                                 pencilX -= 25;
-                                System.out.println(pencilX);
-                                System.out.println(press);
+                              
                             }
                         }
                     }
