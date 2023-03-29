@@ -1,5 +1,5 @@
 # Sharpen-the-pencil
-Simple Java Speed Runner game with sharpen the pencil system :)
+Simple Java Speed Runner game with sharpen the pencil system
 
 --------
 | Menu |
